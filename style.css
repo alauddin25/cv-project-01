@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: "Trirong", serif;
+}
+.container{
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1000px;
+
+}
+.profile-picture{
+    height: 120px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+
+}
+.header-contact p{
+    
+
+}
+.header-contact p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+
+}
+.header-contact p a:hover{
+    text-decoration: underline;
+    background-color: yellow;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+    width: 100%;
+}
+/*Personal Information start*/
+#personal-information{
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+.left-div{
+width: 30%;
+float: left;
+}
+.right-div{
+    width:70%;
+    float: left;
+
+}
+.common-hr{
+    border:1px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+    width: 100%;
+}
+/*personal information End*/
+.right1-div{
+    float: left;
+    width: 45%;
+}
+.right2-div{
+    float: right;
+    width:45%;
+}
+.bottom-content{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-content a{
+    color: white;
+    margin: 20px;
+}
+.bottom-content p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
